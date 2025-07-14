@@ -26,11 +26,26 @@ const toggleMenu = () => {
   menuToggleIcon.classList.toggle('activated');
 }
 
-// Open/Close search form popup
-
-// ---Close the search form popup on esc keypress
-
 menuToggleIcon.addEventListener("click", toggleMenu);
+
+// Open/Close search form popup
+const formOpenBtn = selectElement('#search-icon');
+const formCloseBtn = selectElement('#form-close-btn');
+const searchFormContainer = selectElement('#search-form-container');
+
+
+formOpenBtn.addEventListener('click', ()=>searchFormContainer.classList.add('activated'));
+formCloseBtn.addEventListener('click', ()=>searchFormContainer.classList.remove('activated'));
+
+
+
+// ---Close the search form popup on escape keypress
+window.addEventListener('keyup', evenet=>{
+    if(event.key==='Escape') searchFormContainer.classList.remove('activated');
+});
+
+
+
 
 // Switch theme/add to local storage (switching theme functionality)
 const bodyElement = document.body;
