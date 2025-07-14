@@ -40,7 +40,7 @@ formCloseBtn.addEventListener('click', ()=>searchFormContainer.classList.remove(
 
 
 // ---Close the search form popup on escape keypress
-window.addEventListener('keyup', evenet=>{
+window.addEventListener('keyup', event=>{
     if(event.key==='Escape') searchFormContainer.classList.remove('activated');
 });
 
