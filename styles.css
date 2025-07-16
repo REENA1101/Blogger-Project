@@ -177,7 +177,7 @@ flex-direction: column;
 /* .Header javascript styles */
 .header.activated{
      box-shadow: 0 1 .5rem var(--transparent-light-color);
-      background-color: red;
+      /* background-color: red; */
 }
 
 .menu.activated{
