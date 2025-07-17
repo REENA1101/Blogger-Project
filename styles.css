@@ -448,7 +448,6 @@ flex-direction: column;
 
 .trending-news-data .article-title{
     font-size: var(--font-size-sm);
-
 }
 
 .trending-news-box:hover .article-title{
