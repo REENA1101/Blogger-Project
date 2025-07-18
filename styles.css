@@ -501,6 +501,20 @@ flex-direction: column;
   background-color: var(--light-color);
 }
 
+/* older posts */
+.older-posts-grid-wrapper{
+    gap:var(--gap);
+}
+
+.older-posts-article-image-wrapper,
+.older-posts .article{
+   min-height:var(--item-min-height-sm);
+}
+
+.older-posts .article{
+    background-color: var(--secondary-background-color);
+}
+
 
 
 
