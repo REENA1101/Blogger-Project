@@ -528,9 +528,20 @@ flex-direction: column;
     margin-bottom:var(--margin-sm);
 }
 
+/* See more button style*/
 .see-more-container{
     margin-top:var(--margin-md);
 }
+
+.see-more-btn{
+    text-transform: uppercase;
+}
+
+.see-more-btn:hover i{
+    transform: translateX .5rem;
+}
+
+/* Popular tags */
 
 
 
