@@ -515,6 +515,23 @@ flex-direction: column;
     background-color: var(--secondary-background-color);
 }
 
+.older-posts-article-image-wrapper{
+    position:relative;
+}
+
+.older-posts-grid-wrapper .article-data-container{
+    position:static;
+    background-color: transparent;
+}
+
+.older-posts-grid-wrapper .article-title{
+    margin-bottom:var(--margin-sm);
+}
+
+.see-more-container{
+    margin-top:var(--margin-md);
+}
+
 
 
 
