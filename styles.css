@@ -548,6 +548,7 @@ flex-direction: column;
 
 .popular-tags-container .article{
    min-height: var(--item-min-height-sm);
+   overflow:hidden;
 }
 
 .tag-name{
@@ -561,7 +562,11 @@ flex-direction: column;
 }
 
 .popular-tags-container .article:hover .tag-name{
-    color:var(--light-color)
+    color:var(--light-color);
+} 
+
+.popular-tags-container .article:hover .article-image{
+    transform:scale(1.05);
 } 
 
 
