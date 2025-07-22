@@ -569,6 +569,24 @@ flex-direction: column;
     transform:scale(1.05);
 } 
 
+/* NewsLetter */
+ .newslater{
+    padding-bottom:6rem;
+ }
+
+ .newsletter-title{
+    font-size: var(--font-size-lg);
+ }
+
+ .newsletter-description{
+    margin-bottom: 3rem;
+ }
+
+
+/* Footer */
+/* Blog Post */
+/* Media Queries */
+
 
 
 
