@@ -654,7 +654,8 @@ flex-direction: column;
 }
 
 .blog-post-title{
-    font-size:clamp()
+    font-size:clamp(3rem, 5vw, 6rem);
+
 }
 
 
