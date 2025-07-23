@@ -3,9 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BlogPost | Home</title>
+
+    <link rel="icon" type="image/png" size="32x32" href="assets/images/B.png">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    Post.html
+
+     <!-- Header -->
+     <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="./index.html">
+               <h2 id="logo">BlogPost</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Categories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">MemberShip</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign In</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign Up</a>
+                    </li>
+                   </ul>
+                </div>
+
+                <div class="list list-right">
+                    <button class="btn place-items-center" id="theme-toggle-btn">
+                     <i class="ri-sun-line sun-icon"></i>
+                     <i class="ri-moon-line moon-icon"></i>
+                    </button>
+
+                    <button class="btn place-items-center" id="search-icon">
+                     <i class="ri-search-line"></i>
+                    </button>
+
+                    <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                     <i class="ri-menu-3-line open-menu-icon"></i>
+                     <i class="ri-close-line close-menu-icon"></i>
+                    </button>
+
+                    <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+                    <a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border"><span>Sign In</span></a>
+            </div>
+        </nav>
+     </header>
+     
+     <!-- Search -->
+      <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="What you looking for?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+         <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+      </div>
+
+    <!-- Post.html content -->
+     <section class="blog-post section-header-offset">
+
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+                <h3 class="title blog-post-title">Is Food the Future?</h3>
+                <div class="article-data">
+                    <span>Dec 6th 2025</span>
+                    <span class="article-data-spacer"></span>
+                    <span>4 min read</span>
+                </div>
+
+                <img src="./assets/images/featured/trending1.jpg" alt="postHtmlImage">
+            </div>
+
+            <div class="container">
+                <p>Ipsum dolor sit amet consectetur adipisicing elit.
+                   Maxime inventore molestiae est, non ad dicta, labore voluptatibus totam optio perspiciatis sapiente. Tempora eius cupiditate ducimus distinctio
+                   repellat praesentium voluptas? Dolore sed numquam quos dolorem officia nemo consectetur odio.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aspernatur nobis cum quod repellendus ex deserunt? 
+                   Quaerat in omnis ex laborum est consequuntur eaque dignissimos velit, quo accusantium sit qui!</p>
+            </div>
+
+            <!-- blockquote element -->
+             <blockquote class="quote">
+                <p>
+                    <span><i class="ri-double-quotes-l"></i></span>
+                    Ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime inventore molestiae est.
+                     <span><i class="ri-double-quotes-r"></i></span>
+                </p>
+             </blockquote>
+
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio aspernatur nobis cum quod repellendus ex deserunt? 
+                Quaerat in omnis ex laborum est consequuntur eaque dignissimos velit, quo accusantium sit qui!</p>
+
+            <div class="author d-grid">
+
+                <div class="author-image-box">
+                    <img src="./assets/images/PostHtmlPageImgs/author.jpg" alt="" class="article-image">
+                </div>
+
+                 <div class="author-about">
+                    <h3 class="author-name">Kim Rode</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur officia, quam accusamus repellat?</p>
+
+                     <ul class="list social-media">
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-twitter-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-pinterest-line"></i>
+                            </a>
+                        </li>
+                       </ul>
+                 </div>
+            </div>
+
+        </div>
+     </section>
+
+
+    <!-- Footer -->
+     <footer class="footer section">
+
+                <div class="footer-container container d-grid">
+
+                    <div class="company-data">
+
+                        <a href="./index.html">
+                          <h2 id="logo">BlogPost</h2>
+                       </a>
+
+                       <p class="company-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam repellendus eum, ratione blanditiis nam esse nemo.
+                       </p>
+
+                       <ul class="list social-media">
+                        <li class="list-item">
+                            <a href="#" class="list-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-twitter-line"></i>
+                            </a>
+
+                            <a href="#" class="list-link">
+                                <i class="ri-pinterest-line"></i>
+                            </a>
+                        </li>
+                       </ul>
+
+                       <span class="copyright-notice">&copy; 2025 BlogPost. All rights reserved.</span>
+                    </div>
+
+                    <div>
+                        <h6 class="title footer-title">Useful Links</h6>
+
+                        <ul class="list footer-list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6 class="title footer-title">Company</h6>
+
+                        <ul class="list footer-list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h6 class="title footer-title">Categories</h6>
+
+                        <ul class="list footer-list">
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+
+                            <li class="list-item">
+                                <a href="#" class="list-link">Sample Item</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+           <!-- Swiper.js -->
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+             <!-- Custom Script -->
+              <script src="main.js"></script>
 </body>
 </html>
