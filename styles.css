@@ -655,7 +655,17 @@ flex-direction: column;
 
 .blog-post-title{
     font-size:clamp(3rem, 5vw, 6rem);
+}
 
+.blog-post-data .article-data{
+     margin-bottom:2.5rem;
+}
+
+.blog-post-data-image{
+     width:100%;
+     height:var(--item-min-height-sm);
+     object-fit:cover;
+     object-position:center;
 }
 
 
