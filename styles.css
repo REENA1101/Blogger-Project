@@ -786,7 +786,7 @@ flex-direction: column;
     }  
 
     .older-posts .article{
-        grid-template-columns:40rem 1fr;
+        grid-template-columns:20rem 1fr;
     }
 
     .older-posts-article-iamge-wrapper{
@@ -869,7 +869,9 @@ flex-direction: column;
 }
 
 @media screen and (min-width: 1200px){
-
+     .older-posts-grid-wrapper{
+        grid-template-columns: repeat(2, 1fr);
+     }
 
 }
 
