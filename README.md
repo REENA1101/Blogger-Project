@@ -29,7 +29,7 @@ and many other functionalities and Ui aspects inclduing footer, using grid to al
 <img width="1919" height="820" alt="image" src="https://github.com/user-attachments/assets/753c2954-8026-4f54-945e-ac88b3dec292" />
 
 The website is fully responsive for all types of screens: 
-<img width="524" height="706" alt="image" src="https://github.com/user-attachments/assets/e7161cf5-1d2b-4bbc-86b5-e6d6be2eb7e5" />
+
 
 <img width="713" height="572" alt="image" src="https://github.com/user-attachments/assets/25bebcb5-0bea-4512-bca9-1fab1dc27bcc" />
 
