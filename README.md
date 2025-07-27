@@ -40,7 +40,7 @@ The website is fully responsive for all types of screens:
 
 <img width="713" height="572" alt="image" src="https://github.com/user-attachments/assets/25bebcb5-0bea-4512-bca9-1fab1dc27bcc" />
 
-<img width="820" height="691" alt="image" src="https://github.com/user-attachments/assets/69223d47-4358-49f3-b1b8-341f8cb89d09" />
+<img width="1015" height="636" alt="image" src="https://github.com/user-attachments/assets/f38a440d-4c13-4dc6-9944-a6446bf6f84c" />
 
 <img width="1114" height="643" alt="image" src="https://github.com/user-attachments/assets/01ca224f-11e2-433b-bba2-c354c6c9607e" />
 
