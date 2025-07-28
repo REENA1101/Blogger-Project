@@ -25,7 +25,7 @@ Project overview:
 <img width="1919" height="823" alt="image" src="https://github.com/user-attachments/assets/0bd3ae7b-a5a1-4f0e-a105-7469c8436bd0" />
 
 
-4. and many other functionalities and UI aspects inclduing footer, using grid to align news cards, and email submission input box, scroll bar and much more: 
+4. And many other functionalities and UI aspects inclduing footer, using grid to align news cards, and email submission input box, scroll bar and much more: 
 
 <img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/7de69faa-6358-44aa-9aaa-5b3a292ee0ed" />
 
@@ -48,7 +48,9 @@ Project overview:
 6. And a single news page also fully responsive:
 
 <img width="1919" height="823" alt="image" src="https://github.com/user-attachments/assets/a2531eb0-aada-4c6c-9b77-bcc99db4a7d1" />
+
 and much more...
+
 
 
 
