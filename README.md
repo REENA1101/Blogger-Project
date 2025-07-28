@@ -20,12 +20,12 @@ Project overview:
 <img width="1919" height="818" alt="Screenshot 2025-07-28 014727" src="https://github.com/user-attachments/assets/9dbeb961-e775-4f9f-84ee-23f21c9d8447" />
 
 
-3. A slider:
+4. A slider:
 
 <img width="1919" height="823" alt="image" src="https://github.com/user-attachments/assets/0bd3ae7b-a5a1-4f0e-a105-7469c8436bd0" />
 
 
-4. And many other functionalities and UI aspects inclduing footer, using grid to align news cards, and email submission input box, scroll bar and much more: 
+5. And many other functionalities and UI aspects inclduing footer, using grid to align news cards, and email submission input box, scroll bar and much more: 
 
 <img width="1919" height="819" alt="image" src="https://github.com/user-attachments/assets/7de69faa-6358-44aa-9aaa-5b3a292ee0ed" />
 
@@ -35,7 +35,7 @@ Project overview:
 
 <img width="1919" height="820" alt="image" src="https://github.com/user-attachments/assets/753c2954-8026-4f54-945e-ac88b3dec292" />
 
-5. The website is fully responsive for all types of screens: 
+6. The website is fully responsive for all types of screens: 
 
 
 <img width="713" height="572" alt="image" src="https://github.com/user-attachments/assets/25bebcb5-0bea-4512-bca9-1fab1dc27bcc" />
@@ -45,7 +45,7 @@ Project overview:
 <img width="1114" height="643" alt="image" src="https://github.com/user-attachments/assets/01ca224f-11e2-433b-bba2-c354c6c9607e" />
 
 
-6. And a single news page also fully responsive:
+7. And a single news page also fully responsive:
 
 <img width="1919" height="823" alt="image" src="https://github.com/user-attachments/assets/a2531eb0-aada-4c6c-9b77-bcc99db4a7d1" />
 
